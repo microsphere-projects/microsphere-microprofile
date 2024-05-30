@@ -35,7 +35,6 @@
         <dependency>
             <groupId>javax.annotation</groupId>
             <artifactId>javax.annotation-api</artifactId>
-            <optional>true</optional>
         </dependency>
 
         <!-- CDI -->
