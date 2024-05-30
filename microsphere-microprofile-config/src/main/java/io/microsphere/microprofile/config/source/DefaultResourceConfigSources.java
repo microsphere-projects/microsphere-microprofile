@@ -5,7 +5,12 @@ import org.eclipse.microprofile.config.spi.ConfigSource;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
-import java.util.*;
+import java.util.Enumeration;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Properties;
+import java.util.Set;
 import java.util.logging.Logger;
 
 import static java.util.Collections.sort;

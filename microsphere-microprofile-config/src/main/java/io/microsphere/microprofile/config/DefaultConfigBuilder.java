@@ -1,11 +1,11 @@
 package io.microsphere.microprofile.config;
 
+import io.microsphere.microprofile.config.converter.Converters;
 import io.microsphere.microprofile.config.source.ConfigSources;
 import org.eclipse.microprofile.config.Config;
 import org.eclipse.microprofile.config.spi.ConfigBuilder;
 import org.eclipse.microprofile.config.spi.ConfigSource;
 import org.eclipse.microprofile.config.spi.Converter;
-import io.microsphere.microprofile.config.converter.Converters;
 
 /**
  * @see {@link ConfigSources}

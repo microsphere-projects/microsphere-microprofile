@@ -17,8 +17,8 @@
 package io.microsphere.microprofile.config.source.servlet;
 
 import io.microsphere.microprofile.config.source.EnumerableConfigSource;
-import org.eclipse.microprofile.config.spi.ConfigSource;
 import io.microsphere.microprofile.config.source.servlet.initializer.ServletRequestThreadLocalListener;
+import org.eclipse.microprofile.config.spi.ConfigSource;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.http.HttpServletRequest;
