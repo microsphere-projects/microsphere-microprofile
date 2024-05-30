@@ -18,6 +18,11 @@
     <description>Microsphere Microprofile Config</description>
 
     <dependencies>
+        <!-- Microsphere Core -->
+        <dependency>
+            <groupId>io.github.microsphere-projects</groupId>
+            <artifactId>microsphere-java-core</artifactId>
+        </dependency>
 
         <!-- MicroProfile Config -->
         <dependency>

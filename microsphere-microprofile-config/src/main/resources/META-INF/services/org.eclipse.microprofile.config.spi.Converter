@@ -1,0 +1,14 @@
+io.microsphere.microprofile.config.converter.BigDecimalConverter
+io.microsphere.microprofile.config.converter.BigIntegerConverter
+io.microsphere.microprofile.config.converter.BooleanConverter
+io.microsphere.microprofile.config.converter.ByteConverter
+io.microsphere.microprofile.config.converter.CharacterConverter
+io.microsphere.microprofile.config.converter.ClassConverter
+io.microsphere.microprofile.config.converter.DoubleConverter
+io.microsphere.microprofile.config.converter.FloatConverter
+io.microsphere.microprofile.config.converter.IntegerConverter
+io.microsphere.microprofile.config.converter.LongConverter
+io.microsphere.microprofile.config.converter.ObjectConverter
+io.microsphere.microprofile.config.converter.ShortConverter
+io.microsphere.microprofile.config.converter.StringConverter
+io.microsphere.microprofile.config.converter.URIConverter
