@@ -58,6 +58,7 @@
         <module>microsphere-microprofile-parent</module>
         <module>microsphere-microprofile-dependencies</module>
         <module>microsphere-microprofile-config</module>
+        <module>microsphere-microprofile-fault-tolerance</module>
     </modules>
 
     <distributionManagement>
