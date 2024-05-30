@@ -1,0 +1,6 @@
+io.microsphere.microprofile.faulttolerance.AsynchronousInterceptor
+io.microsphere.microprofile.faulttolerance.BulkheadInterceptor
+io.microsphere.microprofile.faulttolerance.CircuitBreakerInterceptor
+io.microsphere.microprofile.faulttolerance.FallbackInterceptor
+io.microsphere.microprofile.faulttolerance.RetryInterceptor
+io.microsphere.microprofile.faulttolerance.TimeoutInterceptor
