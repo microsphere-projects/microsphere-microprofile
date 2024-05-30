@@ -1,0 +1,3 @@
+io.microsphere.microprofile.rest.uri.PathParamUriBuilderAssembler
+io.microsphere.microprofile.rest.uri.QueryParamUriBuilderAssembler
+io.microsphere.microprofile.rest.uri.MatrixParamUriBuilderAssembler

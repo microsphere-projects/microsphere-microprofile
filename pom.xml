@@ -59,6 +59,7 @@
         <module>microsphere-microprofile-dependencies</module>
         <module>microsphere-microprofile-config</module>
         <module>microsphere-microprofile-fault-tolerance</module>
+        <module>microsphere-microprofile-rest-client</module>
     </modules>
 
     <distributionManagement>
