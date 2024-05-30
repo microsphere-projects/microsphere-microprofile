@@ -51,12 +51,13 @@
     </scm>
 
     <properties>
-        <revision>0.0.3</revision>
+        <revision>0.0.1-SNAPSHOT</revision>
     </properties>
 
     <modules>
         <module>microsphere-microprofile-parent</module>
         <module>microsphere-microprofile-dependencies</module>
+        <module>microsphere-microprofile-config</module>
     </modules>
 
     <distributionManagement>
