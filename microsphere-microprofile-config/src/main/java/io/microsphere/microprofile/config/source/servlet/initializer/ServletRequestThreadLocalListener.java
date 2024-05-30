@@ -32,6 +32,10 @@ public class ServletRequestThreadLocalListener implements ServletRequestListener
 
     private static ThreadLocal<HttpServletRequest> requestThreadLocal = new ThreadLocal<>();
 
+    public static HttpServletRequest getRequest() {
+        return requestThreadLocal.get();
+    }
+
     @Override
     public void requestInitialized(ServletRequestEvent servletRequestEvent) {
         ServletRequest request = servletRequestEvent.getServletRequest();
@@ -42,10 +46,6 @@ public class ServletRequestThreadLocalListener implements ServletRequestListener
     @Override
     public void requestDestroyed(ServletRequestEvent servletRequestEvent) {
         requestThreadLocal.remove();
-    }
-
-    public static HttpServletRequest getRequest() {
-        return requestThreadLocal.get();
     }
 
 }

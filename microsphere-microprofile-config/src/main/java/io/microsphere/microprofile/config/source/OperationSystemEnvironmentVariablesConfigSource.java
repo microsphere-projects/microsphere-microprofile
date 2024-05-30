@@ -12,7 +12,7 @@ public class OperationSystemEnvironmentVariablesConfigSource extends MapBasedCon
     }
 
     @Override
-    public void prepareConfigData(Map configData){
+    public void prepareConfigData(Map configData) {
         configData.putAll(System.getenv());
     }
 }

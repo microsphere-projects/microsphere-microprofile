@@ -40,7 +40,6 @@ import java.util.function.Function;
  *
  * @author <a href="mailto:mercyblitz@gmail.com">Mercy</a>
  * @since 1.0.0
- * Date : 2021-04-28
  */
 public class DelegatingPropertiesAdapter extends Properties {
 

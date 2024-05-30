@@ -30,7 +30,6 @@ import java.util.Set;
  *
  * @author <a href="mailto:mercyblitz@gmail.com">Mercy</a>
  * @since 1.0.0
- * Date : 2021-04-17
  */
 public class PropertySourceConfigSource implements ConfigSource {
 
@@ -67,6 +66,10 @@ public class PropertySourceConfigSource implements ConfigSource {
         return this.ordinal;
     }
 
+    public void setOrdinal(int ordinal) {
+        this.ordinal = ordinal;
+    }
+
     @Override
     public String getValue(String propertyName) {
         Object propertyValue = propertySource.getProperty(propertyName);
@@ -76,9 +79,5 @@ public class PropertySourceConfigSource implements ConfigSource {
     @Override
     public String getName() {
         return propertySource.getName();
-    }
-
-    public void setOrdinal(int ordinal) {
-        this.ordinal = ordinal;
     }
 }

@@ -15,7 +15,7 @@ public class JavaSystemPropertiesConfigSource extends MapBasedConfigSource {
      * @return {@link System#getProperties()}
      */
     @Override
-    public void prepareConfigData(Map configData){
+    public void prepareConfigData(Map configData) {
         configData.putAll(System.getProperties());
     }
 

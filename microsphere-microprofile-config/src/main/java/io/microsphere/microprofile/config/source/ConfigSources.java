@@ -24,10 +24,6 @@ public class ConfigSources implements Iterable<ConfigSource> {
         this.classLoader = classLoader;
     }
 
-    public void setClassLoader(ClassLoader classLoader) {
-        this.classLoader = classLoader;
-    }
-
     public void addDefaultSources() {
         if (addedDefaultConfigSources) {
             return;
@@ -89,5 +85,9 @@ public class ConfigSources implements Iterable<ConfigSource> {
 
     public ClassLoader getClassLoader() {
         return classLoader;
+    }
+
+    public void setClassLoader(ClassLoader classLoader) {
+        this.classLoader = classLoader;
     }
 }

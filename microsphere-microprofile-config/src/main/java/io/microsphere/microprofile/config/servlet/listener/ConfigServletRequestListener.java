@@ -12,6 +12,10 @@ public class ConfigServletRequestListener implements ServletRequestListener {
 
     private static final ThreadLocal<Config> configThreadLocal = new ThreadLocal<>();
 
+    public static Config getConfig() {
+        return configThreadLocal.get();
+    }
+
     @Override
     public void requestInitialized(ServletRequestEvent sre) {
         ServletRequest request = sre.getServletRequest();
@@ -20,10 +24,6 @@ public class ConfigServletRequestListener implements ServletRequestListener {
         ConfigProviderResolver configProviderResolver = ConfigProviderResolver.instance();
         Config config = configProviderResolver.getConfig(classLoader);
         configThreadLocal.set(config);
-    }
-
-    public static Config getConfig() {
-        return configThreadLocal.get();
     }
 
     @Override
