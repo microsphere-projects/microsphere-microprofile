@@ -34,6 +34,7 @@
         <cglib.version>3.3.0</cglib.version>
         <jedis.version>3.5.2</jedis.version>
         <lettuce.version>6.1.0.RELEASE</lettuce.version>
+        <jackson.version>2.13.5</jackson.version>
         <archaius.version>0.6.0</archaius.version>
         <junit.version>4.13</junit.version>
 
@@ -102,6 +103,19 @@
                 <groupId>com.netflix.archaius</groupId>
                 <artifactId>archaius-core</artifactId>
                 <version>${archaius.version}</version>
+            </dependency>
+
+            <!-- Jackson -->
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
             </dependency>
 
             <!-- Testing Dependencies -->
